@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: blue;
 }
 
 code {
@@ -12,29 +13,29 @@ code {
     monospace;
 }
 
+
 .App {
-  border: 3px solid blue;
+  color: white;
 }
 
 .Timer {
-  border: 3px solid red;
+  color: white;
 }
 
 .Play {
-  border: 3px solid green;
   text-align: center;
 }
 
 .Score {
-  border: 3px solid violet;
+  color: white;
 }
 
 .HiScores {
-  border: 3px solid pink;
+  color: white;
 }
 
 .Top {
-  border: 2px solid black;
+
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -45,5 +46,19 @@ code {
   margin: 10px;
   width: 300px;
   height: 200px;
-  background: gray;
+  background:aqua;
+
+
+}
+
+button {
+  font-family: Oswald;
+  font-size: 25px;
+  width: 100px;
+height: 50px;
+border-radius: 15px;
+border: 2px solid black;
+background-color: black;
+color: white;
+
 }
