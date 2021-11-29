@@ -27,10 +27,12 @@ code {
 }
 
 .Score {
+  border: 2px solid black;
   color: white;
 }
 
 .HiScores {
+  border: 2px solid black;
   color: white;
 }
 
